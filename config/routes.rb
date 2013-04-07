@@ -1,5 +1,6 @@
 IntroToRails::Application.routes.draw do
   get "demo/hello"
+  get "demo/hello/:name" => "demo#hello"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
