@@ -11,6 +11,11 @@ group :development do
 	gem 'sqlite3'
 end
 
+#point to postgres db library in production
+group :production do
+	gem 'pg'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
